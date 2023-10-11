@@ -19,7 +19,9 @@ td {
     height: 50px;
     text-align: center;
 }
-
+tr:first-of-type td:first-of-type {
+    color: #ffffff;
+}
 table {
     margin: auto;
 }

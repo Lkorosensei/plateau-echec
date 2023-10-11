@@ -12,12 +12,8 @@ for (let lignes = 0; lignes <= 8; lignes++) {
 
     for (let cellules =0; cellules <= 8; cellules++) {
         let mesCellules = document.createElement("td"); //td
-        // mesCellules.textContent = (cellules + lignes);
         maLigne.appendChild(mesCellules);
         
-        if (lignes == 0 && cellules == 0) {
-            mesCellules.style.color = "white"
-        }
         if (lignes == 0 || cellules == 0) {
             mesCellules.style.border = "none";
             mesCellules.textContent = lignes;
